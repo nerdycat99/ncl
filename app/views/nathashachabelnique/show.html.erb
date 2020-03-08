@@ -1,0 +1,53 @@
+<%= @response.body.html_safe %>
+
+<script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript">
+
+	$( document ).ready(function() {
+
+		document.getElementsByClassName("content-dek")[0].innerHTML = "Nathasha Chabelnique - Autunno Inverno 2020-2021";
+
+		var allDesigns = document.getElementsByClassName("slide-container")[0];
+
+		for (i = 117; i >= 0; i--) {
+			var design = allDesigns.children[i];
+			design.parentNode.removeChild(design);
+		};
+
+		for (x = 65; x >= 8; x--) {
+			var design = allDesigns.children[x];
+			design.parentNode.removeChild(design);
+		};
+
+
+
+		document.getElementById("slide-118").children[1].children[0].innerHTML = "Nathasha Chabelnique <span class=\"slideshow-slide-expand-content\"></span>"
+		document.getElementById("slide-118").children[1].children[1].innerHTML = "Safari Lunaire"
+
+		document.getElementById("slide-119").children[1].children[0].innerHTML = "Nathasha Chabelnique <span class=\"slideshow-slide-expand-content\"></span>"
+		document.getElementById("slide-119").children[1].children[1].innerHTML = "Another classic outfit"
+
+		document.getElementById("slide-120").children[1].children[0].innerHTML = "Nathasha Chabelnique <span class=\"slideshow-slide-expand-content\"></span>"
+		document.getElementById("slide-120").children[1].children[1].innerHTML = "Yet Another classic outfit"
+
+		document.getElementById("slide-121").children[1].children[0].innerHTML = "Nathasha Chabelnique <span class=\"slideshow-slide-expand-content\"></span>"
+		document.getElementById("slide-121").children[1].children[1].innerHTML = "Yet Another classic outfit"
+
+		document.getElementById("slide-122").children[1].children[0].innerHTML = "Nathasha Chabelnique <span class=\"slideshow-slide-expand-content\"></span>"
+		document.getElementById("slide-122").children[1].children[1].innerHTML = "Super classic outfit"
+
+		document.getElementById("slide-123").children[1].children[0].innerHTML = "Nathasha Chabelnique <span class=\"slideshow-slide-expand-content\"></span>"
+		document.getElementById("slide-123").children[1].children[1].innerHTML = "Oh Super classic outfit"
+
+		document.getElementById("slide-124").children[1].children[0].innerHTML = "Nathasha Chabelnique <span class=\"slideshow-slide-expand-content\"></span>"
+		document.getElementById("slide-124").children[1].children[1].innerHTML = "Another Super classic outfit"
+
+		document.getElementById("slide-125").children[1].children[0].innerHTML = "Nathasha Chabelnique <span class=\"slideshow-slide-expand-content\"></span>"
+		document.getElementById("slide-125").children[1].children[1].innerHTML = "Woolly Sausage"
+
+
+
+
+	});
+
+</script>
